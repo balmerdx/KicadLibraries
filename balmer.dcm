@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD7357
+D ADC 14 bit 4.2 Msps
+$ENDCMP
+#
+$CMP BF998
+D 30mA Id, 15V Vds, N-Channel Dual Gate MOSFET, SOT-143/343
+K N-Channel MOSFET Dual Gate
+F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
+$ENDCMP
+#
+$CMP BFG135
+D NPN transistor, base/collector/emitter
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP EL5166
+D Op Amp in SOT23-6 package
+K op amp amplifier operational
+$ENDCMP
+#
+$CMP JACK_TRS_5PINS
+D audio jack TRS 6 pins
+K audio jack connector TRS
+$ENDCMP
+#
+$CMP M25P16
+D SPI Flash
+$ENDCMP
+#
+$CMP SRD-05VDC-SL-C
+D 10 A 25 V
+K Single Pole Relay
+$ENDCMP
+#
+$CMP STM32L053R8T6
+D Core: ARM Cortex-M0 Package: LQFP64 Flash: 64KB Ram: 8KB Frequency: 48MHz Voltage: 2..3.6V IO-pins: 55
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+#End Doc Library
