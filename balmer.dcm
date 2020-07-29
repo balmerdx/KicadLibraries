@@ -30,6 +30,12 @@ $CMP M25P16
 D SPI Flash
 $ENDCMP
 #
+$CMP Micro_SD_Card_Ebay
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
 $CMP SRD-05VDC-SL-C
 D 10 A 25 V
 K Single Pole Relay
