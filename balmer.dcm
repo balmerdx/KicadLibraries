@@ -4,6 +4,10 @@ $CMP AD7357
 D ADC 14 bit 4.2 Msps
 $ENDCMP
 #
+$CMP ADS1271
+D ADC 24 bits
+$ENDCMP
+#
 $CMP BF998
 D 30mA Id, 15V Vds, N-Channel Dual Gate MOSFET, SOT-143/343
 K N-Channel MOSFET Dual Gate
@@ -21,9 +25,17 @@ D Op Amp in SOT23-6 package
 K op amp amplifier operational
 $ENDCMP
 #
+$CMP HX4002
+D L o w N o i s e , R e g u l a t e d C h a r g e P u m p D C / D C C o n v e r t e r
+$ENDCMP
+#
 $CMP JACK_TRS_5PINS
 D audio jack TRS 6 pins
 K audio jack connector TRS
+$ENDCMP
+#
+$CMP LM4140
+D Voltage reference
 $ENDCMP
 #
 $CMP M25P16
